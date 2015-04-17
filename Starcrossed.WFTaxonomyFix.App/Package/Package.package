@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="fd7a2c26-a182-4b15-847d-38b21a676bed" 
+        solutionId="fd7a2c26-a182-4b15-847d-38b21a676bed" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Starcrossed.WFTaxonomyFix.App"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="66c1ba45-56ad-43e9-987d-ac17655c4493" />
+  </features>
+</package>
