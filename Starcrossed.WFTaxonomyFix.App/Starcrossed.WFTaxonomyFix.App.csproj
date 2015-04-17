@@ -43,6 +43,9 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="GetManagedMetadataFieldValue\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ccee7ec0-bb40-4e15-97a7-f6483c81bda1}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4f2834ac-a69e-4e24-8e4a-6e666786b334}</SharePointProjectItemId>
@@ -96,6 +99,11 @@
     <AppManifestFile Include="AppManifest.xml">
       <SubType>Designer</SubType>
     </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="GetManagedMetadataFieldValue\GetManagedMetadataFieldValue.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
